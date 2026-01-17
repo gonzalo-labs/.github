@@ -1,4 +1,4 @@
-# gonzalo-labs
+# Gonzalo Melosevich · Infrastructure & Data Showcase
 
 **gonzalo-labs** is a public workspace for exploring and sharing **cloud platform, infrastructure, and data engineering patterns** inspired by real-world, enterprise-scale systems.
 
