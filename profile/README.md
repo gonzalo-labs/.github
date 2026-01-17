@@ -42,4 +42,4 @@ This organization is intentionally opinionated and minimal, aiming to show *how 
 
 ---
 
-Maintained by **Gonzalo** as a collection of reference patterns and experiments.
+Maintained by **Gonzalo Melosevich F.** as a collection of reference patterns and experiments.
