@@ -11,25 +11,23 @@ The repositories in this organization focus on:
 
 ## What you’ll find here
 
-### 🔧 Platform & Infrastructure Patterns
-Reference implementations that demonstrate how mature platform teams:
-- bootstrap AWS accounts securely
-- manage shared infrastructure with low blast radius
-- enforce guardrails via IAM and policy-as-code
-- operate multi-environment (dev / prod) setups
+The repositories in this organization demonstrate concrete, real-world patterns such as:
 
-### ⚙️ CI/CD & Automation
-Examples of:
-- GitHub Actions with AWS OIDC authentication
-- environment-based deployments with approvals
-- least-privilege deployment roles
-- promotion flows aligned with enterprise governance
+- **Infrastructure as Code with GitHub Actions**  
+  See how I design and operate a secure AWS platform using Terraform and GitHub Actions with OIDC authentication:  
+  👉 https://github.com/gonzalo-labs/aws-cloud-platform-iac-github-actions
 
-### 📊 Data & Analytics Building Blocks
-Small, focused services that show how to:
-- ingest public and external data sources
-- build observable, idempotent data pipelines
-- keep application code decoupled from infrastructure provisioning
+- **Secure CI/CD without long-lived credentials**  
+  Examples of CI/CD pipelines that authenticate to AWS using short-lived credentials and strict trust boundaries.
+
+- **Multi-account AWS architectures**  
+  Patterns for separating environments (dev / prod), minimizing blast radius, and enforcing guardrails across accounts.
+
+- **Clear separation between platform infrastructure and application code**  
+  Infrastructure is provisioned centrally via IaC, while application and Lambda code is deployed independently within defined boundaries.
+
+- **Data ingestion and analytics building blocks**  
+  Lightweight, observable services for ingesting public and external data sources into AWS-managed analytics platforms.
 
 ## Design philosophy
 
